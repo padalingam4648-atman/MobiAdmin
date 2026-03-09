@@ -2,44 +2,33 @@
 
 A privacy-focused Android security application for **remote device tracking, location retrieval, and SIM card monitoring** via SMS commands. Works completely offline without internet connectivity.
 
----
+🎯 Core Features - Device Security & Tracking
+Remote Phone Finder
+SMS-Triggered Alarm - Loud alarm and vibration activated via SMS
+Maximum Volume Override - Bypasses silent mode and volume settings
+Background Operation - Works even when app is closed
+Auto-Stop Timer - Automatically stops after 45 seconds
+No Internet Required - Pure SMS-based communication
+GPS Location Tracking
+Real-Time Coordinates - Instant GPS location via SMS
+Google Maps Integration - Direct map link in SMS response
+High Accuracy Mode - Uses best available location provider
+Multiple Fallbacks - Last known location if GPS unavailable
+Location History - Optional Firebase cloud storage
+Remote Device Lock
+Instant Lock - Lock device immediately via SMS
+Device Admin Integration - Enhanced security features
+Emergency Protection - Quick security mode activation
+No Physical Access Needed - Complete remote control
+SIM Card Monitoring
+Change Detection - Automatic SIM card change alerts
+Alternate Number Notification - SMS alerts to trusted contact
+Boot Monitoring - Checks SIM status on device restart
+Theft Prevention - Immediate notification if SIM replaced
+🚀 Quick Start
+Install the Application
+Option 1: Install APK (Recommended)
 
-## 🎯 Core Features - Device Security & Tracking
-
-### Remote Phone Finder
-- **SMS-Triggered Alarm** - Loud alarm and vibration activated via SMS
-- **Maximum Volume Override** - Bypasses silent mode and volume settings
-- **Background Operation** - Works even when app is closed
-- **Auto-Stop Timer** - Automatically stops after 45 seconds
-- **No Internet Required** - Pure SMS-based communication
-
-### GPS Location Tracking
-- **Real-Time Coordinates** - Instant GPS location via SMS
-- **Google Maps Integration** - Direct map link in SMS response
-- **High Accuracy Mode** - Uses best available location provider
-- **Multiple Fallbacks** - Last known location if GPS unavailable
-- **Location History** - Stored locally on device
-
-### Remote Device Lock
-- **Instant Lock** - Lock device immediately via SMS
-- **Device Admin Integration** - Enhanced security features
-- **Emergency Protection** - Quick security mode activation
-- **No Physical Access Needed** - Complete remote control
-
-### SIM Card Monitoring
-- **Change Detection** - Automatic SIM card change alerts
-- **Alternate Number Notification** - SMS alerts to trusted contact
-- **Boot Monitoring** - Checks SIM status on device restart
-- **Theft Prevention** - Immediate notification if SIM replaced
-
----
-
-## 🚀 Quick Start
-
-### Install the Application
-
-**Option 1: Install APK (Recommended)**
-```bash
 adb install app-debug.apk
 ```
 
@@ -160,22 +149,24 @@ Mobi_Admin/
 ```bash
 git clone https://github.com/yourusername/mobiadmin.git
 cd mobiadmin
-```
+Open in Android Studio
 
-2. **Open in Android Studio**
-   - Launch Android Studio
-   - File → Open
-   - Navigate to `Mobi_Admin`
-   - Click OK
+Launch Android Studio
+File → Open
+Navigate to Mobi_Admin
+Click OK
+Configure Firebase (Optional)
 
-3. **Build the Project**
-```bash
+Go to Firebase Console
+Create new project
+Add Android app with package: com.example.mobiadmin
+Download google-services.json
+Place in app/ directory
+Build the Project
+
 cd Mobi_Admin
 ./gradlew build
-```
-
-4. **Install on Device**
-```bash
+Install on Device
 ./gradlew installDebug
 ```
 
