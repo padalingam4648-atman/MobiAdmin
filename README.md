@@ -54,22 +54,24 @@ It uses Android system components like **Broadcast Receivers, Services, and Devi
 5. Confirmation SMS sent  
 
 ---
-
 ## 📁 Project Structure
+
+```bash
 MobiAdmin/
 ├── app/
-│ ├── src/main/
-│ │ ├── java/com/example/mobiadmin/
-│ │ │ ├── MainActivity.kt
-│ │ │ ├── SmsReceiver.kt
-│ │ │ ├── PhoneFinderService.kt
-│ │ │ ├── SimTrackingService.kt
-│ │ │ ├── SimChangeReceiver.kt
-│ │ │ ├── MyDeviceAdminReceiver.kt
-│ │ │ └── SecurityUtils.kt
-│ │ ├── res/
-│ │ └── AndroidManifest.xml
-│ └── build.gradle.kts
+│   ├── src/main/
+│   │   ├── java/com/example/mobiadmin/
+│   │   │   ├── MainActivity.kt
+│   │   │   ├── SmsReceiver.kt
+│   │   │   ├── PhoneFinderService.kt
+│   │   │   ├── SimTrackingService.kt
+│   │   │   ├── SimChangeReceiver.kt
+│   │   │   ├── MyDeviceAdminReceiver.kt
+│   │   │   └── SecurityUtils.kt
+│   │   ├── res/
+│   │   └── AndroidManifest.xml
+│   └── build.gradle.kts
+```
 ---
 
 ## 📂 Folder Explanation
